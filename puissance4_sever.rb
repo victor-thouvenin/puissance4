@@ -2,6 +2,10 @@ require 'socket'
 
 @online = false
 if ARGV[0] == "--online"
+    if ARGV.length < 2
+        puts "you must enter the game port if you to play online"
+        return 1
+    end
     @online = true
 end
 if @online

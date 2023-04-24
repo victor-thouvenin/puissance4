@@ -1,7 +1,7 @@
 require 'socket'
 
-if ARGV.length == 0
-    puts "enter the host ip"
+if ARGV.length < 2
+    puts "you must enter the host ip and the game port"
     return 1
 end
 socket = TCPSocket.new(ARGV[0], ARGV[1])
