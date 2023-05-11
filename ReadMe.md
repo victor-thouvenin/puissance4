@@ -6,7 +6,6 @@ Puissance 4 est un jeu classique de stratégie à deux joueurs où le but est d'
 
 1. Clonez ou téléchargez le repository.
 2. Assurez-vous d'avoir Ruby installé sur votre système.
-3. Exécutez la commande `bundle install` pour installer les dépendances nécessaires.
 
 ## Utilisation
 
